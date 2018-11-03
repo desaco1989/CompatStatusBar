@@ -1,7 +1,9 @@
 package com.xiao.compatstatusbar;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
 
 import com.xiao.compatstatusbar.base.CompatStatusBarActivity;
 
@@ -17,4 +19,9 @@ public class NextActivity extends CompatStatusBarActivity {
         toolbar.setBackgroundColor(color);
         setImmersiveStatusBar(true, color);
     }
+
+    public void go(View view) {
+        startActivity(new Intent(this, TestNextActivity.class));
+    }
+
 }

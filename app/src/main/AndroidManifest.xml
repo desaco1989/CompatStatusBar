@@ -21,6 +21,7 @@
         </activity>
         <activity android:name=".NextActivity">
         </activity>
+        <activity android:name="com.xiao.compatstatusbar.TestNextActivity"/>
     </application>
 
 </manifest>

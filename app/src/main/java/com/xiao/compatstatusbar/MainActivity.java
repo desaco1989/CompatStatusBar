@@ -19,6 +19,8 @@ public class MainActivity extends CompatStatusBarActivity {
         int color = 0xffaa66cc;
         toolbar.setBackgroundColor(color);
         setImmersiveStatusBar(false, color);
+
+        setSwipeBackEnable(false);
     }
 
     public void go(View view) {
